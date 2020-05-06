@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.6
 import numpy as np
 from tensorflow.keras.utils import get_file
 from tensorflow.keras.datasets import mnist
