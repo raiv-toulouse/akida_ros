@@ -1,4 +1,8 @@
 #!/usr/bin/env python3.6
+#
+# Programme permettant de tester la publication sur un topic d'une onfo calculée par Akida
+# donc test ROS + Akida (python3)
+#
 import numpy as np
 from tensorflow.keras.utils import get_file
 from tensorflow.keras.datasets import mnist
