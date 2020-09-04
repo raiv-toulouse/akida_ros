@@ -1,8 +1,12 @@
 #!/usr/bin/env python3.6
 #
-# Programme permettant de tester la publication sur un topic d'une onfo calculée par Akida
+# Programme permettant de tester la publication sur un topic d'une info calculée par Akida
 # donc test ROS + Akida (python3)
 #
+# Pour avoir ROS
+import rospy
+from std_msgs.msg import String
+
 import numpy as np
 from tensorflow.keras.utils import get_file
 from tensorflow.keras.datasets import mnist
@@ -10,9 +14,6 @@ from tensorflow.keras.datasets import mnist
 # Akida specific imports
 from akida import Model
 
-# Pour avoir ROS
-import rospy
-from std_msgs.msg import String
 
 # Retrieve MNIST dataset
 (train_set, train_label), (test_set, test_label) = mnist.load_data()
