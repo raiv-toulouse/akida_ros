@@ -5,3 +5,17 @@ Le document du projet I4.8 est [ici](https://docs.google.com/document/d/1z0sUxWL
 
 Le lien sur sur le document décrivant la procédure d'installation ainsi que les programmes Python est [ici](https://docs.google.com/document/d/1XequGW3thuL-fHo45l1I-sycVkMweTOWLT5NYezGk5c/edit#).
 
+Utilisation 
+
+`roscore (dans un shell)`
+
+`rosrun akida_ros testROS.py`  (dans un autre shell)
+
+
+affiche des 7 et le topic /mnist affiche : 
+
+`rostopic echo /mnist`
+
+data: "7"
+
+data: "7"
