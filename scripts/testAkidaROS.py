@@ -1,4 +1,5 @@
 #!/usr/bin/env python3.6
+# coding=utf-8
 #
 # Programme permettant de tester la publication sur un topic d'une info calculée par Akida
 # donc test ROS + Akida (python3)
